@@ -37,10 +37,10 @@ module.exports = () => {
           'style-loader',
           {
             loader: 'css-loader',
-            options: {
-              modules: true,
-              localIdentName: '[name]__[local]__[hash:base64:5]'
-            }
+            // options: {
+            //   modules: true,
+            //   localIdentName: '[name]__[local]__[hash:base64:5]'
+            // }
           },
           {
             loader: 'postcss-loader',

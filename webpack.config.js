@@ -35,11 +35,11 @@ module.exports = () => {
         use: [
           'style-loader',
           {
-            loader: 'css-loader',
-            options: {
-              modules: true,
-              localIdentName: '[name]__[local]__[hash:base64:5]'
-            }
+            loader: 'css-loader'
+            // options: {
+            //   modules: true,
+            //   localIdentName: '[name]__[local]__[hash:base64:5]'
+            // }
           },
           {
             loader: 'postcss-loader',
